@@ -1,0 +1,34 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# projectdashboard
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Codecov test coverage](https://codecov.io/gh/jersme/project_dashboard/branch/master/graph/badge.svg)](https://codecov.io/gh/jersme/project_dashboard?branch=master)
+[![R build status](https://github.com/jersme/project_dashboard/workflows/R-CMD-check/badge.svg)](https://github.com/jersme/project_dashboard/actions)
+<!-- badges: end -->
+
+The goal of projectdashboard is to create a project dashboard to keep track of 
+product development on GitHub/
+
+## Installation
+
+The development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("jersme/project_dashboard")
+```

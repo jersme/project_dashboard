@@ -1,0 +1,22 @@
+Package: projectdashboard
+Title: A shiny dashboard to keep track of product development within GitHub
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jeroen",
+           family = "Smeets",
+           role = c("aut", "cre"),
+           email = "jersme@gmail.com")
+Description: What the package does (one paragraph).
+License: GPL-3
+Depends: 
+    R (>= 3.2)
+Imports: 
+    gh,
+    googlesheets
+Suggests: 
+    covr,
+    testthat
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
